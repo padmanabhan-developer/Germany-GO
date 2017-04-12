@@ -1,0 +1,31 @@
+<?php
+function go_report_menu() {
+  $items['masterreport'] = array(
+    'title' => 'Master report for GO admin',
+    'page callback' => 'drupal_get_form',
+    'page arguments' => array('go_report_masterreport'),
+    'access callback' => TRUE,
+    'type' => MENU_NORMAL_ITEM,
+  );
+  return $items;
+}
+
+function go_report_masterreport(){
+$form = array();
+
+$form['filters'] = array('#type'=>'fieldset','#title'=>t('Filters'));
+$form['filters']['type_user'] = array('#type'=>'radios','#title'=>t('User Export'),'#options'=>array(0=>'User Export',1=>'Location Export',2=>'Tur Export'));
+
+$form['filters']['selected'] = array(
+       '#type' => 'select',
+       '#title' => t('Selected'),
+       '#options' => array(
+          0 => t('No'),
+         1 => t('Yes'),
+       ),
+       '#default_value' => $category['selected'],
+       '#description' => t('Set this to <em>Yes</em> if you would like this category to be selected by default.'),
+   );
+
+return $form;
+}

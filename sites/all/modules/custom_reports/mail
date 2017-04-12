@@ -1,0 +1,357 @@
+From MAILER-DAEMON Fri Sep 14 06:25:33 2012
+Return-path: <>
+Envelope-to: root@debian-70-wheezy-64-minimal
+Delivery-date: Fri, 14 Sep 2012 06:25:33 +0000
+Received: from Debian-exim by Debian-70-wheezy-64-minimal with local (Exim 4.80)
+	id 1TCPLJ-000348-79
+	for root@debian-70-wheezy-64-minimal; Fri, 14 Sep 2012 06:25:33 +0000
+X-Failed-Recipients: survey@popcon.debian.org
+Auto-Submitted: auto-replied
+From: Mail Delivery System <Mailer-Daemon@debian-70-wheezy-64-minimal>
+To: root@debian-70-wheezy-64-minimal
+Subject: Mail delivery failed: returning message to sender
+Message-Id: <E1TCPLJ-000348-79@Debian-70-wheezy-64-minimal>
+Date: Fri, 14 Sep 2012 06:25:33 +0000
+
+This message was created automatically by mail delivery software.
+
+A message that you sent could not be delivered to one or more of its
+recipients. This is a permanent error. The following address(es) failed:
+
+  survey@popcon.debian.org
+    Mailing to remote domains not supported
+
+------ This is a copy of the message, including all the headers. ------
+
+Return-path: <root@debian-70-wheezy-64-minimal>
+Received: from root by Debian-70-wheezy-64-minimal with local (Exim 4.80)
+	(envelope-from <root@debian-70-wheezy-64-minimal>)
+	id 1TCPLI-000344-VA
+	for survey@popcon.debian.org; Fri, 14 Sep 2012 06:25:33 +0000
+To: survey@popcon.debian.org
+Subject: popularity-contest submission
+MIME-Version: 1.0
+Content-Type: text/plain
+Message-Id: <E1TCPLI-000344-VA@Debian-70-wheezy-64-minimal>
+From: root <root@debian-70-wheezy-64-minimal>
+Date: Fri, 14 Sep 2012 06:25:32 +0000
+
+POPULARITY-CONTEST-0 TIME:1347603902 ID:1d1231de11dee3501f797e09a76ef639 ARCH:amd64 POPCONVER:1.55
+1347603902 1347432911 sysv-rc /usr/sbin/invoke-rc.d
+1347603902 1347432904 sysvinit /sbin/runlevel
+1347603902 1347432562 grep /bin/grep
+1347603902 1347432542 dash /bin/dash
+1347603902 1347432635 logrotate /usr/sbin/logrotate
+1347603902 1347432575 sed /bin/sed
+1347603902 1347432563 gzip /bin/gzip
+1347603902 1347432537 libc6 /lib/x86_64-linux-gnu/ld-2.13.so
+1347603902 1347432569 lsb-base /lib/lsb/init-functions.d/20-left-info-blocks
+1347603902 1347432561 findutils /usr/bin/find
+1347603902 1347432546 coreutils /usr/bin/touch
+1347603902 1347440349 mdadm /sbin/mdadm
+1347603902 1347432542 debianutils /usr/bin/savelog
+1347603902 1347432567 perl-base /usr/share/perl/5.14.2/feature.pm
+1347603902 1347432540 dpkg /usr/sbin/dpkg-statoverride
+1347603902 1347432671 man-db /usr/lib/man-db/mandb
+1347603901 1347432604 apt /usr/bin/apt-config
+1347603901 1347432550 diffutils /usr/bin/cmp
+1347520174 1347433154 exim4-daemon-light /usr/bin/mailq
+1347519883 1347432624 isc-dhcp-client /sbin/dhclient-script
+1347519074 1347432543 bash /bin/rbash
+1347517510 1347432572 util-linux /usr/bin/setsid <RECENT-CTIME>
+1347517507 1347432573 login /bin/su <RECENT-CTIME>
+1347517507 1347433075 popularity-contest /usr/sbin/popularity-contest <RECENT-CTIME>
+1347517503 1347433165 mlocate /usr/bin/updatedb.mlocate <RECENT-CTIME>
+1347441317 1347432623 iputils-ping /bin/ping <RECENT-CTIME>
+1347440383 1347432645 vim-common /usr/bin/helpztags <RECENT-CTIME>
+1347440377 1347440348 lvm2 /sbin/vgsplit <RECENT-CTIME>
+1347440371 1347440340 ntp /usr/sbin/ntpd <RECENT-CTIME>
+1347440371 1347440347 lockfile-progs /usr/bin/lockfile-remove <RECENT-CTIME>
+1347440364 1347440344 libpython2.7 /usr/lib/python2.7/config/libpython2.7.so <RECENT-CTIME>
+1347440348 1347432604 gnupg /lib/udev/rules.d/60-gnupg.rules <RECENT-CTIME>
+1347440348 1347432644 udev /lib/udev/rules.d/70-udev-acl.rules <RECENT-CTIME>
+1347440331 1347440355 vim-runtime /usr/bin/vimtutor <RECENT-CTIME>
+1347440331 1347440359 vim-nox /usr/bin/vim.nox <RECENT-CTIME>
+1347440331 1347440357 xfsprogs /sbin/xfs_repair <RECENT-CTIME>
+1347440331 1347440342 cpufrequtils /usr/bin/cpufreq-set <RECENT-CTIME>
+1347440331 1347440352 tcl8.5 /usr/bin/tclsh8.5 <RECENT-CTIME>
+1347440331 1347440341 ntpdate /usr/sbin/ntpdate-debian <RECENT-CTIME>
+1347440331 1347440350 rsync /usr/bin/rsync <RECENT-CTIME>
+1347440331 1347440346 libruby1.9.1 /usr/lib/ruby/1.9.1/cgi.rb <RECENT-CTIME>
+1347440331 1347440358 gdisk /sbin/cgdisk <RECENT-CTIME>
+1347440318 1347432647 whiptail /usr/bin/whiptail <RECENT-CTIME>
+1347440318 1347432547 debconf /usr/bin/debconf-escape <RECENT-CTIME>
+1347438332 1347433171 openssh-client /usr/bin/slogin <RECENT-CTIME>
+1347438134 1347432574 ncurses-bin /usr/bin/clear <RECENT-CTIME>
+1347435602 1347432640 procps /usr/bin/w.procps <RECENT-CTIME>
+1347433924 1347432638 nano /usr/bin/nano <RECENT-CTIME>
+1347433894 1347432645 vim-tiny /usr/bin/vim.tiny <RECENT-CTIME>
+1347433891 1347432646 wget /usr/bin/wget <RECENT-CTIME>
+1347433882 1347432574 ncurses-base /lib/terminfo/x/xterm-debian <RECENT-CTIME>
+1347433859 1347432568 passwd /usr/bin/passwd <RECENT-CTIME>
+1347433788 1347432919 aptitude /usr/bin/aptitude-curses <RECENT-CTIME>
+1347433775 1347432908 sysvinit-utils /usr/bin/mesg <RECENT-CTIME>
+1347433591 1347433436 nfs-common /var/lib/nfs/state <RECENT-CTIME>
+1347433437 1347432641 rsyslog /usr/lib/rsyslog/lmnet.so <RECENT-CTIME>
+1347433437 1347432789 acpid /usr/sbin/acpid <RECENT-CTIME>
+1347433437 1347432617 cron /usr/sbin/cron <RECENT-CTIME>
+1347433437 1347433193 openssh-server /usr/sbin/sshd <RECENT-CTIME>
+1347433437 1347433143 at /usr/sbin/atd <RECENT-CTIME>
+1347433436 1347432807 kbd /bin/fgconsole <RECENT-CTIME>
+1347433435 1347433169 rpcbind /sbin/rpcbind <RECENT-CTIME>
+1347433435 1347432619 ifupdown /sbin/ifquery <RECENT-CTIME>
+1347433435 1347432619 iproute /sbin/ip <RECENT-CTIME>
+1347433434 1347432913 initscripts /lib/init/bootclean.sh <RECENT-CTIME>
+1347433434 1347432570 mount /sbin/swapoff <RECENT-CTIME>
+1347433434 1347432561 e2fsprogs /sbin/logsave <RECENT-CTIME>
+1347433303 1347433270 grub-common /usr/bin/grub-script-check <RECENT-CTIME>
+1347433303 1347433271 os-prober /usr/lib/os-probes/mounted/30utility <RECENT-CTIME>
+1347433302 1347433162 gettext-base /usr/bin/gettext <RECENT-CTIME>
+1347433302 1347432544 bsdutils /usr/bin/logger <RECENT-CTIME>
+1347433301 1347433279 grub2-common /usr/sbin/update-grub2 <RECENT-CTIME>
+1347433298 1347433279 grub-pc-bin /usr/lib/grub/i386-pc/grub-setup <RECENT-CTIME>
+1347433298 1347433279 grub-pc /usr/sbin/grub-setup <RECENT-CTIME>
+1347433297 1347433192 lsb-release /usr/bin/lsb_release <RECENT-CTIME>
+1347433284 1347433142 ucf /usr/bin/ucfr <RECENT-CTIME>
+1347433268 1347433137 python2.7 /usr/lib/python2.7/lib-dynload/dbm.so <RECENT-CTIME>
+1347433267 1347433141 python-apt /usr/lib/pyshared/python2.7/apt_pkg.so <RECENT-CTIME>
+1347433267 1347433143 apt-listchanges /usr/bin/apt-listchanges <RECENT-CTIME>
+1347433258 1347433258 python-support /usr/lib/python2.6/dist-packages/python-support.pth <RECENT-CTIME>
+1347433247 1347433182 wamerican /var/lib/dictionaries-common/wordlist/wamerican <RECENT-CTIME>
+1347433247 1347433188 ispell /usr/bin/buildhash <RECENT-CTIME>
+1347433247 1347433188 iamerican /usr/lib/ispell/american.aff <RECENT-CTIME>
+1347433247 1347433247 dictionaries-common /usr/lib/ispell/default.hash <RECENT-CTIME>
+1347433247 1347433188 ibritish /usr/lib/ispell/british.aff <RECENT-CTIME>
+1347433243 1347433185 ca-certificates /usr/sbin/update-ca-certificates <RECENT-CTIME>
+1347433243 1347433242 openssl /usr/lib/ssl/openssl.cnf <RECENT-CTIME>
+1347433227 1347433152 exim4-config /usr/sbin/update-exim4defaults <RECENT-CTIME>
+1347433216 1347433140 python2.6 /usr/bin/pdb2.6 <RECENT-CTIME>
+1347433214 1347433214 python2.6-minimal /usr/lib/python2.6/sitecustomize.py <RECENT-CTIME>
+1347433213 1347433137 python-minimal /usr/bin/pyversions <RECENT-CTIME>
+1347433211 1347432566 tar /usr/lib/mime/packages/tar <RECENT-CTIME>
+1347433211 1347433136 python /usr/bin/pdb <RECENT-CTIME>
+1347433211 1347433136 mime-support /usr/lib/mime/mailcap <RECENT-CTIME>
+1347433211 1347433168 mutt /usr/lib/mime/packages/mutt <RECENT-CTIME>
+1347433211 1347432566 sensible-utils /usr/lib/mime/packages/sensible-utils <RECENT-CTIME>
+1347433211 1347433181 w3m /usr/lib/mime/packages/w3m <RECENT-CTIME>
+1347433210 1347432618 groff-base /usr/lib/mime/packages/groff-base <RECENT-CTIME>
+1347433210 1347433163 less /usr/lib/mime/packages/less <RECENT-CTIME>
+1347433209 1347433173 python-chardet /usr/lib/python2.6/dist-packages/chardet/gb2312prober.py <RECENT-CTIME>
+1347433209 1347433173 python-central /usr/bin/pycentral <RECENT-CTIME>
+1347433209 1347433174 python-debian /usr/lib/python2.7/dist-packages/deb822.py <RECENT-CTIME>
+1347433209 1347433208 python2.7-minimal /usr/lib/python2.7/sitecustomize.py <RECENT-CTIME>
+1347433111 1347433164 m4 /usr/bin/m4 <RECENT-CTIME>
+1347433111 1347433172 patch /usr/bin/patch <RECENT-CTIME>
+1347433111 1347433180 time /usr/bin/time <RECENT-CTIME>
+1347433111 1347433122 libsasl2-2 /usr/lib/sasl2/berkeley_db.txt <RECENT-CTIME>
+1347433111 1347433195 xauth /usr/bin/xauth <RECENT-CTIME>
+1347433111 1347433156 bzip2 /bin/bzless <RECENT-CTIME>
+1347433111 1347433153 exim4-base /usr/sbin/syslog2eximlog <RECENT-CTIME>
+1347433111 1347433159 dnsutils /usr/bin/nslookup <RECENT-CTIME>
+1347433111 1347433155 bsd-mailx /usr/bin/bsd-mailx <RECENT-CTIME>
+1347433111 1347433183 whois /usr/bin/mkpasswd <RECENT-CTIME>
+1347433111 1347433172 procmail /usr/bin/mailstat <RECENT-CTIME>
+1347433111 1347433179 texinfo /usr/bin/texi2dvi <RECENT-CTIME>
+1347433111 1347433161 ftp /usr/bin/pftp <RECENT-CTIME>
+1347433111 1347433160 file /usr/bin/file <RECENT-CTIME>
+1347433111 1347433157 db5.1-util /usr/bin/db5.1_log_verify <RECENT-CTIME>
+1347433111 1347433164 lsof /usr/bin/lsof <RECENT-CTIME>
+1347433111 1347433193 psmisc /usr/bin/pstree.x11 <RECENT-CTIME>
+1347433111 1347433194 tcpd /usr/sbin/safe_finger <RECENT-CTIME>
+1347433111 1347433112 bash-completion /usr/bin/dh_bash-completion <RECENT-CTIME>
+1347433111 1347433145 bc /usr/bin/bc <RECENT-CTIME>
+1347433111 1347433178 telnet /usr/bin/telnet.netkit <RECENT-CTIME>
+1347433111 1347433151 bind9-host /usr/bin/host <RECENT-CTIME>
+1347433111 1347433178 reportbug /usr/bin/querybts <RECENT-CTIME>
+1347433111 1347433158 dc /usr/bin/dc <RECENT-CTIME>
+1347433111 1347433123 liblockfile-bin /usr/bin/dotlockfile <RECENT-CTIME>
+1347433110 1347432563 hostname /bin/hostname <RECENT-CTIME>
+1347433080 1347432642 tasksel /usr/lib/tasksel/tests/new-install <RECENT-CTIME>
+1347433080 1347432641 tasksel-data /usr/lib/tasksel/tests/laptop <RECENT-CTIME>
+1347433079 1347432617 dmidecode /usr/sbin/dmidecode <RECENT-CTIME>
+1347433079 1347432926 laptop-detect /usr/sbin/laptop-detect <RECENT-CTIME>
+1347432938 1347432939 installation-report /usr/bin/report-hw <RECENT-CTIME>
+1347432937 1347432930 discover-data /lib/discover/scsi-vendor.xml <RECENT-CTIME>
+1347432937 1347432932 discover /usr/bin/discover-config <RECENT-CTIME>
+1347432918 1347432920 aptitude-common /usr/bin/aptitude-run-state-bundle <RECENT-CTIME>
+1347432831 1347432602 gpgv /usr/bin/gpgv <RECENT-CTIME>
+1347432814 1347432810 console-setup /usr/bin/ckbcomp <RECENT-CTIME>
+1347432802 1347432534 libc-bin /usr/bin/iconv <RECENT-CTIME>
+1347432798 1347432793 dmsetup /sbin/dmsetup <RECENT-CTIME>
+1347432793 1347432794 eject /usr/lib/eject/dmcrypt-get-device <RECENT-CTIME>
+1347432786 1347432786 acpi /usr/bin/acpi <RECENT-CTIME>
+1347432781 1347432783 usbutils /usr/bin/usb-devices <RECENT-CTIME>
+1347432777 1347432778 pciutils /usr/bin/update-pciids <RECENT-CTIME>
+1347432772 1347432744 busybox /bin/busybox <RECENT-CTIME>
+1347432772 1347432748 klibc-utils /usr/lib/klibc/bin/ipconfig <RECENT-CTIME>
+1347432772 1347432616 cpio /bin/cpio <RECENT-CTIME>
+1347432770 1347432749 initramfs-tools /usr/sbin/mkinitramfs <RECENT-CTIME>
+1347432770 1347432626 kmod /lib/modprobe.d/aliases.conf <RECENT-CTIME>
+1347432769 1347432766 linux-image-3.2.0-3-amd64 /boot/System.map-3.2.0-3-amd64 <RECENT-CTIME>
+1347432768 1347432761 libuuid-perl /usr/lib/perl5/auto/UUID/UUID.so <RECENT-CTIME>
+1347432761 1347432762 linux-base /usr/bin/linux-version <RECENT-CTIME>
+1347432690 1347432686 locales /usr/sbin/validlocale <RECENT-CTIME>
+1347432685 1347432573 mawk /usr/bin/mawk <RECENT-CTIME>
+1347432685 1347432601 apt-utils /usr/bin/apt-extracttemplates <RECENT-CTIME>
+1347432660 1347432602 adduser /usr/sbin/addgroup <RECENT-CTIME>
+1347432660 1347432633 perl /usr/lib/perl/5.14.2/I18N/Langinfo.pm <RECENT-CTIME>
+1347432650 1347432620 install-info /usr/sbin/update-info-dir <RECENT-CTIME>
+1347432598 1347432640 netcat-traditional /bin/nc.traditional <RECENT-CTIME>
+1347432598 1347432639 net-tools /bin/netstat <RECENT-CTIME>
+1347432598 1347432632 perl-modules /usr/share/perl/5.14.2/Fatal.pm <RECENT-CTIME>
+1347432598 1347432614 libclass-isa-perl /usr/share/perl5/Class/ISA.pm <RECENT-CTIME>
+1347432598 1347432621 info /usr/bin/info <RECENT-CTIME>
+1347432598 1347432622 iptables /usr/bin/iptables-xml <RECENT-CTIME>
+1347432598 1347432614 libswitch-perl /usr/share/perl5/Switch.pm <RECENT-CTIME>
+1347432598 1347432623 isc-dhcp-common /usr/bin/omshell <RECENT-CTIME>
+1347432598 1347432643 traceroute /usr/bin/traceroute6.db <RECENT-CTIME>
+1347432598 1347432599 bsdmainutils /usr/bin/hd <RECENT-CTIME>
+1347432593 1347432564 libpam-runtime /usr/sbin/pam-auth-update <RECENT-CTIME>
+1347432580 1347432541 base-passwd /usr/sbin/update-passwd <RECENT-CTIME>
+1347432572 1347432559 insserv /sbin/insserv <RECENT-CTIME>
+1347432555 1347432549 libtext-iconv-perl /usr/lib/perl5/auto/Text/Iconv/Iconv.so <RECENT-CTIME>
+1347432555 1347432548 liblocale-gettext-perl /usr/lib/perl5/auto/Locale/gettext/gettext.so <RECENT-CTIME>
+1347432555 1347432549 libtext-charwidth-perl /usr/lib/perl5/Text/CharWidth.pm <RECENT-CTIME>
+1347432555 1347432549 libtext-wrapi18n-perl /usr/share/perl5/Text/WrapI18N.pm <RECENT-CTIME>
+1347432534 1347432554 libpam-modules-bin /sbin/unix_chkpwd <RECENT-CTIME>
+1347432534 1347432576 xz-utils /usr/bin/xzcat <RECENT-CTIME>
+1347432534 1347432570 tzdata /usr/sbin/tzconfig <RECENT-CTIME>
+0 0 geoip-database <NOFILES>
+0 0 libx11-data <NOFILES>
+0 0 libgssglue1 <NOFILES>
+0 0 libept1.4.12 <NOFILES>
+0 0 libisccc80 <NOFILES>
+0 0 libevent-2.0-5 <NOFILES>
+0 0 libpam-modules <NOFILES>
+0 0 libustr-1.0-1 <NOFILES>
+0 0 libsemanage-common <NOFILES>
+0 0 libwrap0 <NOFILES>
+0 0 libldap-2.4-2 <NOFILES>
+0 0 libpam0g <NOFILES>
+0 0 debian-archive-keyring <NOFILES>
+0 0 keyboard-configuration <NOFILES>
+0 0 base-files <NOFILES>
+0 0 libx11-6 <NOFILES>
+0 0 libdns81 <NOFILES>
+0 0 libcomerr2 <NOFILES>
+0 0 libisccfg82 <NOFILES>
+0 0 libtasn1-3 <NOFILES>
+0 0 libffi5 <NOFILES>
+0 0 libfuse2 <NOFILES>
+0 0 libdevmapper1.02.1 <NOFILES>
+0 0 libdiscover2 <NOFILES>
+0 0 debian-faq <NOFILES>
+0 0 libuuid1 <NOFILES>
+0 0 libcpufreq0 <NOFILES>
+0 0 openssh-blacklist-extra <NOFILES>
+0 0 libreadline5 <NOFILES>
+0 0 libxext6 <NOFILES>
+0 0 libselinux1 <NOFILES>
+0 0 libpipeline1 <NOFILES>
+0 0 host <NOFILES>
+0 0 libsqlite3-0 <NOFILES>
+0 0 libopts25 <NOFILES>
+0 0 libpcre3 <NOFILES>
+0 0 libncursesw5 <NOFILES>
+0 0 iso-codes <NOFILES>
+0 0 libcwidget3 <NOFILES>
+0 0 debconf-i18n <NOFILES>
+0 0 libxmuu1 <NOFILES>
+0 0 libfreetype6 <NOFILES>
+0 0 liblzma5 <NOFILES>
+0 0 libusb-1.0-0 <NOFILES>
+0 0 libxcb1 <NOFILES>
+0 0 libboost-iostreams1.49.0 <NOFILES>
+0 0 exim4 <NOFILES>
+0 0 libgcrypt11 <NOFILES>
+0 0 libmagic1 <NOFILES>
+0 0 libexpat1 <NOFILES>
+0 0 ncurses-term <NOFILES>
+0 0 libxau6 <NOFILES>
+0 0 libgeoip1 <NOFILES>
+0 0 libslang2 <NOFILES>
+0 0 libasprintf0c2 <NOFILES>
+0 0 libperl5.14 <NOFILES>
+0 0 libmount1 <NOFILES>
+0 0 netbase <NOFILES>
+0 0 libedit2 <NOFILES>
+0 0 libssl1.0.0 <NOFILES>
+0 0 acpi-support-base <NOFILES>
+0 0 libudev0 <NOFILES>
+0 0 libpth20 <NOFILES>
+0 0 libstdc++6 <NOFILES>
+0 0 multiarch-support <NOFILES>
+0 0 libdevmapper-event1.02.1 <NOFILES>
+0 0 libtokyocabinet9 <NOFILES>
+0 0 zlib1g <NOFILES>
+0 0 libyaml-0-2 <NOFILES>
+0 0 libapt-pkg4.12 <NOFILES>
+0 0 libpci3 <NOFILES>
+0 0 task-english <NOFILES>
+0 0 libss2 <NOFILES>
+0 0 libusb-0.1-4 <NOFILES>
+0 0 console-setup-linux <NOFILES>
+0 0 python-debianbts <NOFILES>
+0 0 libisc83 <NOFILES>
+0 0 util-linux-locales <NOFILES>
+0 0 libncurses5 <NOFILES>
+0 0 libidn11 <NOFILES>
+0 0 libgdbm3 <NOFILES>
+0 0 libgnutls26 <NOFILES>
+0 0 libsepol1 <NOFILES>
+0 0 openssh-blacklist <NOFILES>
+0 0 task-ssh-server <NOFILES>
+0 0 libsasl2-modules <NOFILES>
+0 0 libbsd0 <NOFILES>
+0 0 libnfsidmap2 <NOFILES>
+0 0 libp11-kit0 <NOFILES>
+0 0 manpages <NOFILES>
+0 0 libnewt0.52 <NOFILES>
+0 0 libgpgme11 <NOFILES>
+0 0 libacl1 <NOFILES>
+0 0 libblkid1 <NOFILES>
+0 0 doc-debian <NOFILES>
+0 0 libk5crypto3 <NOFILES>
+0 0 gcc-4.7-base <NOFILES>
+0 0 libgc1c2 <NOFILES>
+0 0 libattr1 <NOFILES>
+0 0 libkmod2 <NOFILES>
+0 0 libtinfo5 <NOFILES>
+0 0 libgpg-error0 <NOFILES>
+0 0 liblua5.1-0 <NOFILES>
+0 0 python-reportbug <NOFILES>
+0 0 libcap2 <NOFILES>
+0 0 libbind9-80 <NOFILES>
+0 0 libbz2-1.0 <NOFILES>
+0 0 libgssapi-krb5-2 <NOFILES>
+0 0 libkrb5-3 <NOFILES>
+0 0 liblockfile1 <NOFILES>
+0 0 readline-common <NOFILES>
+0 0 libxapian22 <NOFILES>
+0 0 libsigc++-2.0-0c2a <NOFILES>
+0 0 libapt-inst1.5 <NOFILES>
+0 0 libpopt0 <NOFILES>
+0 0 python-soappy <NOFILES>
+0 0 e2fslibs <NOFILES>
+0 0 libdb5.1 <NOFILES>
+0 0 liblwres80 <NOFILES>
+0 0 libtirpc1 <NOFILES>
+0 0 libkeyutils1 <NOFILES>
+0 0 libxdmcp6 <NOFILES>
+0 0 libprocps0 <NOFILES>
+0 0 libsemanage1 <NOFILES>
+0 0 libnfnetlink0 <NOFILES>
+0 0 libgcc1 <NOFILES>
+0 0 libkrb5support0 <NOFILES>
+0 0 xkb-data <NOFILES>
+0 0 libgpm2 <NOFILES>
+0 0 python-fpconst <NOFILES>
+0 0 krb5-locales <NOFILES>
+0 0 libklibc <NOFILES>
+0 0 python-apt-common <NOFILES>
+0 0 ienglish-common <NOFILES>
+0 0 libreadline6 <NOFILES>
+0 0 module-init-tools <NOFILES>
+0 0 libicu48 <NOFILES>
+END-POPULARITY-CONTEST-0 TIME:1347603902
+
